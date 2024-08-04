@@ -1,45 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lunastra Studio</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
-</head>
-<body>
-    <header class="header">
-        <div class="logo">
-<!---->            <img src="CSS/IMG/LogoOFF.png" alt="Logo de la marca">
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="CSS/style.css">
+
+      <title>Lunastra Studio</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">Lunastra Studio</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <span>Inicio</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <span>Studio</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <span>Lunastra</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <span>Nosotros</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="#" class="nav__link">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <span>Contacto</span>
+                     </a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+
+               <div class="nav__social">
+                  <a href="https://www.instagram.com/" target="_blank" class="nav__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+
+                  <a href="https://github.com/" target="_blank" class="nav__social-link">
+                    <i class="ri-facebook-box-line"></i>
+                  </a>
+
+                  <a href="https://dribbble.com/" target="_blank" class="nav__social-link">
+                    <i class="ri-whatsapp-line"></i>
+                  </a>
+
+                  <a href="https://www.linkedin.com/" target="_blank" class="nav__social-link">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+               </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main>
+         
+        <div class="content-img">
+
+            <img src="CSS/IMG/astro.png" alt="">
+
         </div>
-        <nav>
-           <ul class="nav-links">
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Our Work</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Clients</a></li>
-                <li><a href="#">Contact</a></li>
-           </ul>            
-        </nav>
 
-<!---->        <a onclick="openNav()" class="menu" href="#"><i class="ri-menu-line"></i>    </a>
+        <div class="content-info">
 
-<!---->        <div id="mobile-menu" class="overlay">
-<!---->            <a onclick="closeNav()" href="" class="close"><i class="ri-close-large-line"></i></a>
-<!---->            <div class="overlay-content">
-<!---->                 <a href="#">Services</a>
-                        <a href="#">Our Work</a>
-                        <a href="#">About Us</a>
-                        <a href="#">Clients</a>
-                        <a href="#">Contact</a>
-<!---->            </div>
-<!---->        </div>
+            <h1>Entre Estrellas y Pixeles, Despertamos Universos Encantados.</h1>
 
-    </header>
+            <p>Creando Experiencias que Trascienden el Tiempo. Nuestro estudio
+                 combina estrategias de marketing y diseño de marcas con una
+                  estética evocadora para ofrecerte una experiencia digital 
+                  inolvidable y auténtica.</p>
 
+                  <a href="">Contacto</a>
 
-<!---->    <script type="text/javascript" src="JS/main.js"></script>
+        </div>
 
-</body>
+      </main>
+
+      <section>
+        
+      </section>
+      
+      <!--=============== MAIN JS ===============-->
+      <script src="JS/main.js"></script>
+   </body>
 </html>
